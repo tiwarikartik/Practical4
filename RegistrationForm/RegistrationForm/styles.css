@@ -1,0 +1,98 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Oxygen&family=Ubuntu&display=swap');
+
+:root {
+    --font: "Oxygen";
+    --color1: #abcdef; /* Add a Lighter color here */
+    --color2: #000022; /* Add a Darker color here */
+}
+
+body {
+    margin: 0;
+    display: grid;
+    align-content: center;
+    place-items: center;
+    font-size: 20px;
+    background-color: lightskyblue;
+    font-family: var(--font), normal;
+    font-weight: bold;
+}
+
+form {
+    padding: 20px;
+    /* border: solid var(--color2) 7px;*/
+    box-shadow: var(--color2) 6px 6px 10px 2px;
+    border-radius: 20px;
+    background: var(--color1);
+    margin: 5vh;
+}
+
+h2 {
+    margin: 0;
+    color: var(--color1);
+    background-color: var(--color2);
+    padding: 8px;
+    border-radius: 8px;
+}
+
+table {
+    width: 35vw;
+}
+
+.controls {
+    color: var(--color2);
+    accent-color: var(--color2);
+    background-color: var(--color1);
+    box-shadow: 2px 2px 2px 2px var(--color2);
+    font: inherit;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 8px;
+    width: 91%;
+}
+
+.range {
+    accent-color: var(--color2);
+    box-shadow: none;
+}
+
+.boxshadow {
+    box-shadow: none;
+    color: var(--color1);
+    accent-color: var(--color1);
+    background: url("images/circle.svg") no-repeat var(--color2);
+}
+
+.center {
+    display: grid;
+    place-items: center;
+}
+
+.size100 {
+    width: 96%;
+}
+
+.radio {
+    min-height: 1.2rem;
+    min-width: 1.2rem;
+    accent-color: var(--color2);
+    width: 95%;
+}
+
+.labels {
+    color: var(--color2);
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #abefef;
+    border-radius: 1rem;
+    padding: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: var(--color2);
+}
